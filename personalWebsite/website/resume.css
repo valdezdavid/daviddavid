@@ -1,0 +1,106 @@
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+img {
+   padding:1px;
+   border:1px solid #021a40;
+   background-color:#ffffff;
+   width:300px;
+   height:auto;
+}
+
+.cpp {width: 80%; background-color: #4CAF50;} /* Green */
+.html {width: 50%; background-color: #2196F3;} /* Blue */
+.css {width: 50%; background-color: #f44336;} /* Red */
+.js {width: 30%; background-color: #808080;} /* Dark Grey */
+.bg-1{
+	background-color: #e1eaea;
+	padding: 10px;
+	border: 2px;
+}
+.bg-2{
+	/*padding: 10px;*/
+	/*border: 2px solid black;*/
+	margin-left: 15%;
+	margin-right: 15%;
+	/*background-color: yellow;*/
+	font-size: 150%;
+	box-shadow: 5px 5px 5px #b3b3b3;
+    color: solid black;
+}
+.bg-3{
+
+	margin-left: 15%;
+	margin-right: 15%;
+	/*background-color: yellow;*/
+	font-size: 150%;
+	box-shadow: 5px 5px 5px #b3b3b3;
+    color: solid black;
+}
+
+.bg-7{
+	padding: 10px;
+}
+
+.bg-5{
+
+	margin-left: 15%;
+	margin-right: 15%;
+	/*background-color: yellow;*/
+	font-size: 150%;
+	box-shadow: 5px 5px 5px #b3b3b3;
+    color: solid black;
+}
+
+.bg-6{
+
+	margin-left: 15%;
+	margin-right: 15%;
+	/*background-color: yellow;*/
+	font-size: 150%;
+	box-shadow: 5px 5px 5px #b3b3b3;
+    color: solid black;
+    
+}
+
+.bg-7 h3 {
+    /*color: solid black;*/
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+	font-family: "Times New Roman", Georgia, Serif;
+	background-color: solid black;
+}
+
+p{
+	text-align: center;
+	font-family: "Times New Roman", Georgia, Serif;
+}
+
+h4{
+	text-align: center;
+	font-family: "Times New Roman", Georgia, Serif;
+}
+
+header{
+	text-decoration: none;
+	text-decoration-style: none;
+
+}
+
+.bg-9{
+	text-align: left;
+}
+

@@ -1,0 +1,240 @@
+#intro-section {padding-top:50px;height:400px; background-color: ##FDF5E6;}
+#interests-section {padding-top:50px;height:500px;background-color: #66b3ff;}
+#projects-section {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+#resume-section {padding-top:50px;height:500px; background-color: ##FDF5E6;}
+#contact-section{padding-top:50px;height:500px;color: #000000; background-color:  #e1eaea;}
+/*
+  #myNavbar{
+  	text-align: center;
+  	display: inline-block;
+  }*/
+
+.navbar{
+	text-align: center;
+    background-color: #000000;
+	
+}
+
+#intro-section p{
+	/*border: 2px solid black;*/
+	padding: 10px 10px 10px 10px;
+	/*margin-left: 150px ;
+	margin-right: 150px ; 
+	margin-top: 150px ;
+	margin-bottom: 150px ;*/
+	/*text-align: center;*/
+    /*display: block;*/
+
+    text-shadow: 2px 2px 4px #b3b3b3;
+    text-align: center;
+    font-family: "Times New Roman", Georgia, Serif;
+    background-color: solid black;
+}
+
+/*#intro-section h1{
+    color: solid black;
+}*/
+#intro-section p:hover{
+	/*background-color: yellow;*/
+	font-size: 150%;
+	box-shadow: 10px 10px 5px #888888;
+    color: solid black;
+	
+}
+#intro-section h1{
+	text-align: center;
+	font-family: "Times New Roman", Georgia, Serif;
+}
+#interests-section{
+    position: relative;
+    overflow: hidden;
+    height: 1000px;
+}
+
+#resume-section p{
+    color:solid black;
+    /*background-color: */
+}
+
+#interests-section{
+    padding-bottom: 0px;
+}
+
+/*
+img{
+    height: 275px;
+    width: 325px;
+    padding-left: 0 0 0 0;
+    float: left;
+    max-height: 275px;
+
+    /*max-width: 235;*/
+
+}
+#ravens{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform: translate3d(0px, 0px, 0px);
+/*    width: 353px;
+*/}
+#mexican{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform: translate3d(325px, 0px, 0px);
+    /*width: 353px;*/
+
+}
+#lakers{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform: translate3d(650px, 0px, 0px);
+/*    width: 353px;
+*/
+}
+#thai{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform: translate3d(945px, 0px, 0px);
+/*    width: 353px;
+*/
+}
+#innout {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform: translate3d(0px, 250px, 0px);
+  
+}
+#dodgers{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform: translate3d(325px, 275px, 0px);
+
+}
+#pasta{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform: translate3d(650px, 275px, 0px);
+
+}
+
+#realmadrid{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform: translate3d(945px, 275px, 0px);
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    /*margin: auto;*/
+    text-align: center;
+    display: inline-block;
+
+}
+
+
+
+.container {
+    padding: 0 16px;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+#contact-section button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+#contact-section a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+#contact-section button:hover, a:hover {
+    opacity: 0.7;
+}
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+
+button.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+#contact-card{
+    /*float:left;*/
+    text-align: center;
+}
+
+#interests-section p{
+    color:solid black;
+}
+
+#resume-section h1{
+    text-shadow: 2px 2px 5px #b3b3b3;
+}
+#contact-section h1{
+    text-shadow: 2px 2px 5px #b3b3b3;
+}
+
+#interests-section h1{
+    text-shadow: 2px 2px 5px #b3b3b3;
+}
+
+
+
+
+
+
