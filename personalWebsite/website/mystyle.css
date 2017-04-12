@@ -1,8 +1,9 @@
-#intro-section {padding-top:50px;height:400px; background-color: ##FDF5E6;}
-#interests-section {padding-top:50px;height:500px;background-color: #66b3ff;}
-#projects-section {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
-#resume-section {padding-top:50px;height:500px; background-color: ##FDF5E6;}
-#contact-section{padding-top:50px;height:500px;color: #000000; background-color:  #e1eaea;}
+#intro-section {padding-top:50px;height:400px; background-color: #FFFFFF;}
+#interests-section {padding-top:50px;height:500px;background-color: #ebf0fa;}
+/*#projects-section {padding-top:50px;height:500px;color: #fff; background-color: #FFFFFF;}*/
+#resume-section {padding-top:50px;height:300px; background-color: #FFFFFF;}
+#contact-section{padding-top:50px;height:500px;color: #000000; background-color: #ebf0fa;}
+/*ebf0fa*/
 /*
   #myNavbar{
   	text-align: center;
@@ -11,7 +12,7 @@
 
 .navbar{
 	text-align: center;
-    background-color: #000000;
+    background-color: #FFFFFF;
 	
 }
 
@@ -34,13 +35,7 @@
 /*#intro-section h1{
     color: solid black;
 }*/
-#intro-section p:hover{
-	/*background-color: yellow;*/
-	font-size: 150%;
-	box-shadow: 10px 10px 5px #888888;
-    color: solid black;
-	
-}
+
 #intro-section h1{
 	text-align: center;
 	font-family: "Times New Roman", Georgia, Serif;
@@ -224,9 +219,17 @@ button.accordion.active:after {
 
 #resume-section h1{
     text-shadow: 2px 2px 5px #b3b3b3;
+    text-align: center;
+}
+#resume-section p{
+    text-align: center;
 }
 #contact-section h1{
     text-shadow: 2px 2px 5px #b3b3b3;
+    text-align: center;
+}
+#contact-section {
+    text-align: center;
 }
 
 #interests-section h1{
