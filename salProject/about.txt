@@ -1,0 +1,34 @@
+So while I was in CS 104 (Data Structures), I had to attend office hours at SAL a BOAT load of times to get help.
+On days that assignments were due, there would literally be 30 students on the board waiting to get help.
+Many times, students get skipped or have their name erased due to the uncontrollable environment SAL becomes when 
+it is packed. Another occuring problem, was that I would make the long trek to SAL, hoping to get help from someone
+only to find out that office hours had been canceled by the CP/TA. Likewise, I would plan to go to SAL get help really
+fast, and make it to class on time. Many times, the board would be filled with student names and my plans would not 
+go as planned.
+
+Solution! (Or possible solution): Have a webapp that lets students sign up for office hours and enter their name into
+a queue. This would prevent having people skipped and the above mentioned problems CS students have to deal with.
+
+Problem: Student's name gets erased, therefore cannot get help from TA/CP
+Solution: Student is entered into a queue where only the TA/CP can delete the student's name only after the student got
+help or did not report to the TA/CP at SAL within a certain time limit (should be reasonable).
+
+Problem: Student keeps getting skipped, other students put their name before the student that has been waiting for a long time
+Solution: Students are entered into a generic queue (to the back).
+
+Problem: Student does not know how many students might be at SAL asking for help and has to run to class, but goes to SAL anyways
+because he or she really needs help.
+Solution: The student can login and check how many students are already in line, waiting to be helped.
+
+Problem: Student cannot put their name on the list until he or she is physically present at SAL.
+Solution: The student can sign in from wherever and put his or her name into the queue.
+
+
+
+
+
+Student Interface:
+
+
+
+TA/CP Interface:
