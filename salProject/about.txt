@@ -24,7 +24,10 @@ Problem: Student cannot put their name on the list until he or she is physically
 Solution: The student can sign in from wherever and put his or her name into the queue.
 
 
-I really want to complete this because, it could possibly be very valuable for CS students who struggle with their homework. Unfortunately, I haven't had time due to school work. I am planning on completing it over the summer (2017) and presenting it to someone in charge at the CS department in hopes of it being implemented to every CS class.
+
+I really want to complete this because, it could possibly be very valuable for CS students who struggle with their homework.
+Unfortunately, I haven't had time due to school work. I am planning on completing it over the summer (2017) and presenting 
+it to someone in charge at the CS department in hopes of it being implemented to every CS class.
 
 
 
